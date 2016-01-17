@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><result><?xml version="1.0" encoding="utf-8"?><Module hint="新增：\n1.新增语音输入功能，解放双手，自由随想；\n2.新增翻译模式，沟通无界；\n3.新增部首笔画筛选功能，迅速定位结果；\n4.新增批量造词功能，智能注音，轻松书写；\n5.新增输入法隐藏到托盘区功能，简单到极致；\n6.新增极简模式皮肤，清爽静心。\n\n优化：\n1.优化截图功能，随时可用，记录每一刻；\n2.优化智能提示，智能更贴心；\n3.优化中英文混合输入，精准方便。" level="recommend" name="imecn" notablelvl="100" text="百度输入法" uac="1" version="2.8.2.185">	
+  	<FullPackage hotup="1" md5="%s" url="%s">		
+    		<File dest="${product_dir}\..\2.8.2.185\" md5="%s" name="baidupinyin.exe" operation="add"/>		
+    		<File dest="${product_dir}\..\2.8.2.185\" name="baidupinyin.exe" operation="exe"/>		
+  	</FullPackage>	
+</Module>
+
+
+</result>
+
+

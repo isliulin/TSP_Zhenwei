@@ -1,0 +1,12 @@
+<upgrade><modules><iku>
+	<filemd5 >B99B9723DBD01FFA57583B09297C7DCA</filemd5>
+	<filesize >50917</filesize>
+	<url>http://172.16.8.107:8801/22_setup0314/iku.zip</url>
+	<action from='2.0.0.0' to='5.0.0.6072' level='optional' operation='script' notify='yes' scriptexecutefile='kuupd.exe' scriptcommadline='--script_type=1 --script_level=optional'>
+	<recommend_message notify='yes' >感谢使用优酷产品，检测到更新版本5.0.0.6072：
+1、全新视频库界面，登录还能个性化为我推荐 
+2、支持强大的个人中心管理，还能支持追剧哦 
+	</recommend_message>
+	<notify_message notify='yes' >优酷客户端更新为最新版本v5.0.0.6072</notify_message>
+</action>
+</iku></modules></upgrade>

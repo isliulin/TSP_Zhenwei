@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Update>
+<Drivergenius>
+<File MD5="%s" Name="DG2014SP2_1250U2.exe" Size="%u" />
+<Reason><![CDATA[
+ 1、改进对Windows 8.1预览版的支持；
+ 2、降低物理内存占用率；
+ 3、修改硬件检测导致界面显示检测结果慢的问题。
+ 4、驱动管理列表增加驱动回滚功能，方便用户返回至上次安装的驱动；
+ 5、修正Win8 x64下无法自动关闭安装未认证驱动时的对话框问题；
+ 6、改进下载前对所需磁盘空间的判断，避免下载失败；
+ 7、改进驱动列表页面的细节。
+ ]]>
+</Reason>
+<CompanyEmail>info@mydrivers.com</CompanyEmail>
+<UpdateVersion ProductVersion="2014" FileVersion="9.8.801.1250" />
+</Drivergenius>
+<Server>
+<ftp ip="file1.mydrivers.com" port="3722" path="" />
+<http ip="www.baidu.com" port="80" path="" />  
+</Server>
+</Update>

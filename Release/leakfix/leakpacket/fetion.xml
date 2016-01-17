@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LiveUpdate>
+	<Type>optional</Type>
+	<BuildTime>2013-06-05 05:01:40</BuildTime>
+	<TargetVersion>5.8.3810</TargetVersion>
+	<DownloadURL>//liveupdate.fetion-portal.com/163/FetionUpdate.exe</DownloadURL>
+	<Size>34309648</Size>
+	<HashCode>8bf8928b0ac3819f1b60796b44bc99aa</HashCode>
+	<Details>
+		<Update></Update>
+		<Update>1.消息盒子：飞信贴心助手，未读消息及时提醒，让你不再错过任何消息</Update>
+		<Update></Update>
+		<Update>2.多点登录：手机、电脑同时在线，聊天消息同时收发，沟通乐趣随处享</Update>
+		<Update></Update>
+		<Update>3.新视频：手机、电脑视频互通，相念亦可相见，随时随地“见面”畅聊</Update>
+		<Update></Update>
+		<Update>4.新版皮肤：好心情随时在，皮肤随心换！飞信更换皮肤全新升级，提供更为丰富的皮肤供用户选择</Update>
+	</Details>
+</LiveUpdate>

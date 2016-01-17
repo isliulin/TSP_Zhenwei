@@ -1,0 +1,16 @@
+Version:17.1
+Url:%s
+Sitesign:2014120301
+Url2:http://www.yunfan.cn/down/sitesign.rar
+Sitesearch:2013120301
+Url3:http://www.yunfan.cn/down/sitesearch.rar
+Sitedown:2013120301
+Url4:http://www.yunfan.cn/down/sitedown.rar
+NewMsg:0
+Remark:1、增强小说网站下载设置的兼容性。 
+2、小说正文标志设置右键中加入导出网站列表功能。 
+3、修正无小说时上传将网上列表清空的问题。 
+4、修正小说写作助手个别问题。 
+5、修正个别网站搜索问题。 
+6、修正个别网站下载问题。 
+7、其他个别问题修正。

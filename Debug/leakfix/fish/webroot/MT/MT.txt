@@ -1,0 +1,1 @@
+launchable activity name='com.android.manageapp.MainActivity'

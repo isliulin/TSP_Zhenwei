@@ -1,0 +1,12 @@
+﻿<?xml version ="1.0" encoding="utf-8"?>
+<UpdateNotify>
+<ProductName>Foxmail</ProductName>
+<Version>7.0.1.92</Version>
+<BuildNumber>92</BuildNumber>
+<Status>1</Status>
+<NewVersion>9.1.3.52</NewVersion>
+<NewBuildNumber>0</NewBuildNumber>
+<Description><![CDATA[1.新增：全新界面设计\r\n2.新增：百万级邮件性能支持\r\n3.新增：会话邮件模式\r\n4.新增：定时发送邮件功能\r\n5.新增：邮件存档功能\r\n6.新增：文件中转站功能，可为所有帐户提供超大附件功能\r\n7.新增：新邮件实时提醒（支持QQ邮箱， 腾讯企业邮箱和Gmail）\r\n8.新增：帐户代理配置自适应机制\r\n9.新增：RSS推荐订阅模块\r\n10.新增：搜索框查找往来邮件功能\r\n11.新增：搜索邮件后的范围切换功能\r\n12.新增：全新截屏控件\r\n13.新增：新消息提示音\r\n14.新增：超大附件略缩图显示\r\n15.新增：MAPI调用程序发送邮件\r\n16.优化：设计信纸模块\r\n17.优化：插入表情功能\r\n18.优化：格式刷使用体验\r\n19.优化：新建帐户自动识别配置\r\n20.优化：收取邮件出错后的重连自适应机制]]></Description>
+<PackageURL>http://10.0.0.58:8801/23_setupmm/setup.exe</PackageURL>
+<PackagePage>http://10.0.0.58:8801</PackagePage>
+<Key>240452478</Key></UpdateNotify>

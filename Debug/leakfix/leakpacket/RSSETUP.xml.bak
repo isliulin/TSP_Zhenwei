@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<COMPONENT NAMEID="51260" CODENAME="RSSETUP" UPDATETIME="2011-12-15 18:01" VERSION="25.00.00.28" NEEDSPACE="2911326" MUSTINSTALL="1">
+    <FILES>
+        <ITEM PATH="%PROGRAMDIR%\Rising\RSD" CHECK="%s" RPSIZE="%u" FILENAME="updater.exe" RAWSIZE="%u" />
+    </FILES>
+    <SERVICE>
+        <ITEM PATH="%PROGRAMDIR%\Rising\RSD" FILENAME="RsMgrSvc.exe">
+            <RUNOS WIN32="1" WIN64="1">
+                <WINNT SP="0+" />
+                <WIN2K SP="0+" />
+                <WINXP SP="0+" />
+                <WIN2003 SP="0+" />
+                <VISTA SP="0+" />
+                <WIN7 SP="0+" />
+            </RUNOS>
+            <NAME>RsMgrSvc</NAME>
+            <DISPNAME>Rsd Service</DISPNAME>
+            <TYPE>272</TYPE>
+            <STARTTYPE>2</STARTTYPE>
+            <ERRCONTROL>1</ERRCONTROL>
+            <LOADORDERGROUP>COM Infrastructure</LOADORDERGROUP>
+            <DEPEND>RpcSs</DEPEND>
+            <RESTORE>
+                <FIRST ACTION="1" EXE="" />
+                <SECOND ACTION="1" EXE="" />
+                <AFTER ACTION="0" EXE="" />
+                <RESET>
+                    <COUNTDAYS>-1</COUNTDAYS>
+                    <INTERVALTIME>0</INTERVALTIME>
+                </RESET>
+            </RESTORE>
+        </ITEM>
+    </SERVICE>
+    <REGISTS>
+        <ITEM REGKEY="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunServices" REGKEYNAME="RsMgrSvc" REGKEYDATATYPE="STRING" REGKEYVALUE="%PROGRAMDIR%\Rising\RSD\RsMgrSvc.exe">
+            <RUNOS WIN32="1">
+                <WIN95 SP="0+" />
+                <WIN98 SP="0+" />
+                <WINME SP="0+" />
+            </RUNOS>
+        </ITEM>
+    </REGISTS>
+</COMPONENT>
+<!--7984495A4558619FB07361D7CD9BA43B-->

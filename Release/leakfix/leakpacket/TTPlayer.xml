@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><result>﻿<Module name="ttplayer" text="7.3.2" hint="1、提供高品质、无损音乐服务\n2、优化网络连接\n" level="prompt" uac="1" version="7.3.2.0">
+  <FullPackage md5="cec31de6c9ae5980e9f608ed19aa7ad7" url="http://update.music.baidu.com/ttplayer/update.cab" hotup="0">
+    <File name="ttpsetupNSIS.exe" dest="${temp_dir}" operation="add" md5="e3fcb903305f8ee5551ea66f5c096737" />
+    <File name="ttpsetupNSIS.exe" dest="${temp_dir}" operation="exe" param="" md5="e3fcb903305f8ee5551ea66f5c096737" hotup="0" />
+  </FullPackage>
+</Module></result>

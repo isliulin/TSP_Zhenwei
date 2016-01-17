@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<update flag="prompt">
+<utype>no</utype>
+<speed>0</speed>
+<version>4.1.2.30</version>
+<sub_version>beat</sub_version>
+<date>20130610</date>
+<files>
+	<file type ="execute">
+		<name>setup.exe</name>
+		<url>http://10.0.0.58:8801/update/23_setupmm/setup.exe</url>
+		<sha1>84c1f3baae1cc0746c7f17c255e72ecd1baf63c4</sha1>
+		<size>114688</size> 
+	</file>
+</files>
+</update>

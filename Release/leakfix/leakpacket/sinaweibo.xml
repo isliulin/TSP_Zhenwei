@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<root>
+	<Product Name="微博桌面" Key="Weibo">
+	<NewVer Version="3.4.0.32586" Type="Upgrade">
+		<MD5>E3FCB903305F8EE5551EA66F5C096737</MD5> 
+		<Path>http://192.168.222.129:8801/22_setup0314/setup.exe</Path>
+		<FileLength>114688</FileLength>
+		<Date>2013-07-20</Date>   
+		<Desc>微博桌面2.3.0（2013-07-20）\r\n1、新增拼图功能，随手快速分享；\r\n2、兼容多图显示，尽享缤纷美图；\r\n</Desc> 
+	</NewVer>
+	<DownloadHomeURL>http://desktop.weibo.com/2012</DownloadHomeURL> 
+	<RegisterPos Root="HKEY_LOCAL_MACHINE" Leaf="SOFTWARE\Sina\Weibo2012" Key="APPNAME" /> 
+	</Product>
+</root>

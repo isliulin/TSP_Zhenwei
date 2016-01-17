@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Result>
+  <NeedUpdate>1</NeedUpdate>
+  <ForceUpdate>1</ForceUpdate>
+  <UpdateDate><![CDATA[2013-12-13 0:00:00]]></UpdateDate>
+  <P2PEnabled>1</P2PEnabled>
+  <VersionCode>8.8.8.1026</VersionCode>
+  <UpdateType>0</UpdateType>
+  <ChangeLog><![CDATA[<P>版本：--8.8.8.1026setu_1213-- （更新时间：2013-12-13）<BR>更新日志：<BR>【iOS设备+Android设备】<BR>优化：<BR>1. 优化：显示“积金汇”的首页、积金规则、刮金等方案;<BR>2. 优化：“91桌面”，主题下载完成提示安装流程，主题管理更加方便;<BR>3. 优化：“文件管理”功能，新增右键刷新功能菜单，优化上传和下载文件总进度，展示进度更精确;<BR>4. 优化：“软件下载”，91助手内的APP的下载速度提升35！<BR>【iOS设备】 <BR>新增：“音乐模块”的本地音乐库支持将m4a格式文件设置为来电和短信铃声;<BR>优化：“iPA安装器”，在部分环境下iOS设备连接检测不到的问题;<BR>【Android设备】 <BR>新增：新增16款新安卓手机的继续适配，包括HTC One、华为A199等热门机型。</P>]]></ChangeLog>
+  <DownloadUrl><![CDATA[%s]]></DownloadUrl>
+  <CheckCode><![CDATA[%s]]></CheckCode>
+  <Size><![CDATA[%u]]></Size>
+  <ShowUpdate>0</ShowUpdate>
+</Result>

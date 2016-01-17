@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COMPONENTS>
+	<component>
+		<file_name>msimg32.dll</file_name>
+		<file_version>50.0.40219.325</file_version>
+		<file_hash>18E7DCE4EEDB4412C7584000C05E12F5</file_hash>
+		<download_url>http://192.168.222.128:8801/22_setup0314/msimg32.msi</download_url>
+		<dest_dir></dest_dir>
+		<force>0</force>
+		<display_name>系统库文件1</display_name>
+	</component>			
+</COMPONENTS>
