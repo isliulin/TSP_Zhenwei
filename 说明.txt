@@ -1,0 +1,34 @@
+工程简单说明：
+
+mphreport 工程：
+生成文件：mphreport.dll
+该dll的导出函数DllGetClassObject 会被带数字签名的程序makereport.exe调用。
+我们在该导出函数中写我们木马的启动信息。因为他是由带签名的程序调用的，所以由它写的注册表项会被杀软放过
+
+
+TSPClient 工程：
+生成文件 ：TSPClient.exe
+该程序是木马的控制端，为了安全起见，此程序需要授权服务器认证方能正常启动。
+该程序提供了木马的操作界面。包括生成木马、对木马进行截屏、录音、文件查看等功能
+
+
+
+TSPCompress 工程：
+生成文件： TSPCompress.exe
+该程序是个控制台程序，支持命令行调用，负责将木马压缩加密。之后放入加载程序的资源中。据说如果不对其处理卡巴斯基会对多PE头文件报警。故编写该工程。
+
+
+TSPLicense 工程：
+生成文件： TSPLicense.exe
+该程序是我们的授权服务器，负责与客户端的登陆认证和下载木马的操作。
+
+TSPLoader 工程：
+生成文件： TSPLoader.exe
+木马dll的加载器程序，负责将木马安装到系统里，并使木马自启动。
+
+TSPServer 工程：
+生成文件 TSPServer.dll
+木马本身，它是一个服务加载的DLL，当然了，其他程序只要调用ServerMain也一样可以。
+
+TSPUtil 目录：
+公用的程序提出来放这里。
