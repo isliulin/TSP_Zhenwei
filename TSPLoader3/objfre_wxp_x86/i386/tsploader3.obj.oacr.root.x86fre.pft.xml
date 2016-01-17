@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+<OACRDEFECTCOUNT>5</OACRDEFECTCOUNT>
+<OACRERRORCOUNT>0</OACRERRORCOUNT>
+<DEFECT _seq="1"><SFA><LINE>92</LINE><COLUMN>10</COLUMN><FILENAME>tsploader3.cpp</FILENAME><FILEPATH>d:\work\project\bypass360\pgpdisk\tsp\tsp-xinjin\tsploader3\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'CreateProcess' instead of 'WinExec'. Reason: Deprecated. See MSDN for details.</DESCRIPTION><FUNCTION>ExpandFile</FUNCTION><FUNCLINE>85</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="2"><SFA><LINE>141</LINE><COLUMN>10</COLUMN><FILENAME>tsploader3.cpp</FILENAME><FILEPATH>d:\work\project\bypass360\pgpdisk\tsp\tsp-xinjin\tsploader3\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'CreateProcess' instead of 'WinExec'. Reason: Deprecated. See MSDN for details.</DESCRIPTION><FUNCTION>WinMain</FUNCTION><FUNCLINE>124</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="3"><SFA><LINE>187</LINE><COLUMN>10</COLUMN><FILENAME>tsploader3.cpp</FILENAME><FILEPATH>d:\work\project\bypass360\pgpdisk\tsp\tsp-xinjin\tsploader3\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'CreateProcess' instead of 'WinExec'. Reason: Deprecated. See MSDN for details.</DESCRIPTION><FUNCTION>WinMain</FUNCTION><FUNCLINE>124</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="4"><SFA><LINE>139</LINE><COLUMN>7</COLUMN><FILENAME>tsploader3.cpp</FILENAME><FILEPATH>d:\work\project\bypass360\pgpdisk\tsp\tsp-xinjin\tsploader3\</FILEPATH></SFA><DEFECTCODE>28719</DEFECTCODE><DESCRIPTION>Banned API Usage:  strcat is a Banned API as listed in dontuse.h for security purposes.</DESCRIPTION><FUNCTION>WinMain</FUNCTION><FUNCLINE>124</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="5"><SFA><LINE>140</LINE><COLUMN>7</COLUMN><FILENAME>tsploader3.cpp</FILENAME><FILEPATH>d:\work\project\bypass360\pgpdisk\tsp\tsp-xinjin\tsploader3\</FILEPATH></SFA><DEFECTCODE>28719</DEFECTCODE><DESCRIPTION>Banned API Usage:  strcat is a Banned API as listed in dontuse.h for security purposes.</DESCRIPTION><FUNCTION>WinMain</FUNCTION><FUNCLINE>124</FUNCLINE><PATH/></DEFECT>
+</DEFECTS>

@@ -1,0 +1,18 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\tsploader3.obj \
+ $(OBJ_PATH)\$O\stdafx.obj \
+
+
+_RES_FILE=$(OBJ_PATH)\$O\tsploader3.res
+
+
+
+# lowercased
+BASEDIR=e:\comment-tool\vc\wdk7600
+OBJECT_ROOT=e:\comment-tool\vc\wdk7600
+MAKEDIR_LOWERCASE=d:\work\project\bypass360\pgpdisk\tsp\tsp-xinjin\tsploader3
+OBJ_PATH=d:\work\project\bypass360\pgpdisk\tsp\tsp-xinjin\tsploader3
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

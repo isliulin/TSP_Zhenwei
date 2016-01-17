@@ -1,0 +1,1747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAudio" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CAudio::__unnamed_016f_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Audio.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAAgYACARAAAEAAAABAAAARAAACACAIAlAAIYCABAAQ=</HashCode>
+      <FileName>Audio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAudioDlg" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CAudioDlg::__unnamed_0174_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AudioDlg.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Typedef Name="CAudioDlg::WAVEFILE_HEADER" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AudioDlg.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="CAudioDlg::PMOVEFILE_HEADER" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AudioDlg.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="CAudioDlg::__unnamed_0174_2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AudioDlg.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAJAQEAEACyAQgAApxCAACUABACAAAAAAIBCAQSAAA=</HashCode>
+      <FileName>AudioDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBmpToAvi" Collapsed="true">
+    <Position X="33.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAEIAAAAAAAAAAAAAAAgAAQAABGAAAA=</HashCode>
+      <FileName>BmpToAvi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CButtonST" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQyBmAOqrAjZERngBGAANBEDvdANBImkVxoIEREECKI=</HashCode>
+      <FileName>control\BtnST.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBuffer" Collapsed="true">
+    <Position X="35" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>include\Buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCpuUsage" Collapsed="true">
+    <Position X="36.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAACAAAAAAAAAAAAAEAAAAABAAABCAAAAAAA=</HashCode>
+      <FileName>include\CpuUsage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCursorInfo" Collapsed="true">
+    <Position X="38.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAIACIAAAAAAAAAAAAAgAAAAgAAAAAA=</HashCode>
+      <FileName>CursorInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCustomTabCtrlItem" Collapsed="true">
+    <Position X="42" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAgAAFAAgACAAAAAQAAAEIUAIAAAAQIAAAAAEA=</HashCode>
+      <FileName>CustomTabCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCustomTabCtrl" Collapsed="true">
+    <Position X="40.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFqSEDHIaklIBgwCv4BgAFhEBRADA0oMlgIhQIoQCEQ=</HashCode>
+      <FileName>CustomTabCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDDOS" Collapsed="true">
+    <Position X="43.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAAAAgAgAEAEBAAhBAAAAAUI6FAwEgEAAgAIgEAEk=</HashCode>
+      <FileName>DDOS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CdlgProgress" Collapsed="true">
+    <Position X="45.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIABgBEAQAAAAAABApJAAAAABAAgAAAAEAAAEAAAAAA=</HashCode>
+      <FileName>dlgProgress.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDlgSecretGet" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAAEAAgDAAAQBAhBgAJCIgBAKAACAEAAADCDAAAI=</HashCode>
+      <FileName>DlgSecretGet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnDeCode" Collapsed="true">
+    <Position X="36.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEIAABAAAAABAAIEAAAAAAAAAAAAEAAQAAAAAA=</HashCode>
+      <FileName>EnDeCode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFileManagerAuto" Collapsed="true">
+    <Position X="31.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAghAYVyCBCQgBwAAAAIIAACEAQSADAAUAAECwIQABQ=</HashCode>
+      <FileName>FileManagerAuto.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFileManagerDlg" Collapsed="true">
+    <Position X="33.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MCwpAd1zDtGUgHwAq5FKIIRGM9RSgDUiESYMC6s9ABU=</HashCode>
+      <FileName>FileManagerDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFileTransferModeDlg" Collapsed="true">
+    <Position X="35" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAkCAAAAAAAAAhBAAACAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>FileTransferModeDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGENGXIN" Collapsed="true">
+    <Position X="36.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAECAAAAAhBAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>GENGXIN.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUANYU" Collapsed="true">
+    <Position X="38.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAhBAAAAIAAQAggAAEAAAAIAAAAA=</HashCode>
+      <FileName>GUANYU.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTrackControl&lt;BaseClass&gt;" Collapsed="true">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACABEAAAAAAAgAAAAECAAAAAgAAAAAAAAAAAAAI=</HashCode>
+      <FileName>control\HoverEdit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHoverEdit" Collapsed="true">
+    <Position X="2.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAIAIAAAAAAAABAAQABAAAAAAAI=</HashCode>
+      <FileName>control\HoverEdit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIniFile" Collapsed="true">
+    <Position X="38.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAIAAAAAAAAIAGAgBAIAAAAAwAAAAAAAEACAAAA=</HashCode>
+      <FileName>IniFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDlgTemplateBuilder" Collapsed="true">
+    <Position X="29.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAACAAAAAAAAQgBAAAAAAAAkAAAEAAAAMAAQAAAAAA=</HashCode>
+      <FileName>InputDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInputDialog" Collapsed="true">
+    <Position X="40.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABEAAAAAAAAgABAQAAABAACAAAAAAAACABAQAAA=</HashCode>
+      <FileName>InputDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLock" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAAAAAAAAAAAAAAAAAAABAgAAAAACAAAAAAAACAA=</HashCode>
+      <FileName>include\IOCPServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OVERLAPPEDPLUS" Collapsed="true">
+    <Position X="42" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>include\IOCPServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIOCPServer" Collapsed="true">
+    <Position X="42" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gKIAIDBAFAASEQUAAUYESUACguIIAQRAIYAAAhAAkoQ=</HashCode>
+      <FileName>include\IOCPServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CKeyBoardDlg" Collapsed="true">
+    <Position X="45.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQAQEAAgGgAAgAghhCAAIAAAACBAAAAAIACAAQCAA=</HashCode>
+      <FileName>KeyBoardDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LOGIN" Collapsed="true">
+    <Position X="40.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBIAEABAEIkEACQhDABgABEAA0AAAAAAAAAAIAAAA=</HashCode>
+      <FileName>LOGIN.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainFrame" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAEAAAAAFCEBAAgBADEQChCITAgAAEAIBAIAEABA=</HashCode>
+      <FileName>MainFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIOMessageMap" Collapsed="true">
+    <Position X="43.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Mapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScreenSpyDlg" Collapsed="true">
+    <Position X="31.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQCAEUUUBAGQKgkBitRSBBCCAAAHABAEjA8CGQEQACA=</HashCode>
+      <FileName>ScreenSpyDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSettingsView" Collapsed="true">
+    <Position X="33.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SEUgAAEgBAIAAQgQChhABAWEod1AAgYAcgQAAQAABQA=</HashCode>
+      <FileName>SettingsView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEU_QQwry" Collapsed="true">
+    <Position X="43.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAIIgAABAACAQEAAAQCCIQAIAIAogICAAEAAAAAA=</HashCode>
+      <FileName>SEU_QQwry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShellDlg" Collapsed="true">
+    <Position X="35" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAEAAAGgAAgAAhhIBAAAEAACAAAAAAIACAAUAAA=</HashCode>
+      <FileName>ShellDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSplashScreenEx" Collapsed="true">
+    <Position X="36.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAJAAgAEIokAAkohgAABSAIAMAEAgEkAACAAAIAA=</HashCode>
+      <FileName>SplashScreenEx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSystemDlg" Collapsed="true">
+    <Position X="38.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAIEAAwGQBDgEAhBAAAQAgBACAAAAAAIACIgRCAA=</HashCode>
+      <FileName>SystemDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTabSDIFrameWnd" Collapsed="true">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAQAAACAAAAAgBAgBABAQIAAAAAgAAEAAQAAAACAA=</HashCode>
+      <FileName>TabSDIFrameWnd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CThemeUtil" Collapsed="true">
+    <Position X="40.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAACAAAQCAAQAEAgAAIAEAEAQAAAAAAChAAAOA=</HashCode>
+      <FileName>ThemeUtil.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTrayIcon" Collapsed="true">
+    <Position X="42" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QRAAICAAAAABAIQAACAAAoAAAEIGAEAYFAUEAAAAAAA=</HashCode>
+      <FileName>TrayIcon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTrueColorToolBar" Collapsed="true">
+    <Position X="43.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAACCAAQgBAAAABABAAAAAAAQAAAAAQAAA=</HashCode>
+      <FileName>TrueColorToolBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTSPClientApp" Collapsed="true">
+    <Position X="45.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAAAAAAgHAAAABAAAAACQAAACBAAAAAAA=</HashCode>
+      <FileName>TSPClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTSPClientDoc" Collapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAgBAAAAAACAAIoACEAAAAAAAAAA=</HashCode>
+      <FileName>TSPClientDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTSPClientView" Collapsed="true">
+    <Position X="29.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>D0eAwKuEIAFdiDChco/OLgAt7kCSAsCRFmx1NIMxReQ=</HashCode>
+      <FileName>TSPClientView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CVideoCodec" Collapsed="true">
+    <Position X="31.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEAAAAEAAACAAAAAIEAAAAAABRAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VideoCodec.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWebCamDlg" Collapsed="true">
+    <Position X="33.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACEEQUQiAGQAggIglRCBCCCACIDIBBIAAICGAAQgCA=</HashCode>
+      <FileName>WebCamDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWinXPButtonST" Collapsed="true">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAABAAAAAAAAAAAAACAAAAAAqAAAAA=</HashCode>
+      <FileName>control\WinXPButtonST.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWriteLog" Collapsed="true">
+    <Position X="35" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAEAIAEAAAAAAAAEAQAQAAAAAAAA=</HashCode>
+      <FileName>WriteLog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CProcess" Collapsed="true">
+    <Position X="29.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAEABAAAAAAgAAQIAAAAEAAACAAAQA=</HashCode>
+      <FileName>d:\work\TSP\TSP-xinjin\WdkPath\myprocess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAhBAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>TSPClient.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_tag_PDHCounterStruct" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAAAAAAAAAAAAQAAAAAAAAAAQAAAgAAAAAAAA=</HashCode>
+      <FileName>include\CpuUsage.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_CTC_NMHDR" Collapsed="true">
+    <Position X="3.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAIAAAAAAAAAAAAAAAAIAAEAIAAIAQBAA=</HashCode>
+      <FileName>CustomTabCtrl.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClientContext" Collapsed="true">
+    <Position X="29.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KCAAAACUAABSAAAAAANAAEAAAAAAAAAAFQAAAAAAAAA=</HashCode>
+      <FileName>include\IOCPServer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_0131_2" Collapsed="true">
+    <Position X="14.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAQQAA=</HashCode>
+      <FileName>LicenseDef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_016e_2" Collapsed="true">
+    <Position X="25.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAACAAAAAEABAAAAAABAAAAAAAAAAAAAAAAAAASAAI=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_016e_4" Collapsed="true">
+    <Position X="15.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABAAAAQgAgAACAAAAAACACgAQAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tag_INFOEVIDENCEFILE" Collapsed="true">
+    <Position X="17.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tag_INFOEVIDENCEFILEANS" Collapsed="true">
+    <Position X="7.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tag_INFOEVIDENCEDATA" Collapsed="true">
+    <Position X="3.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAABAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_MYDATA" Collapsed="true">
+    <Position X="11.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Public.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_tagEndInfo" Collapsed="true">
+    <Position X="15.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAgAAEAAAAAAAAQBAAAAAAAAgAAAAIAA=</HashCode>
+      <FileName>SEU_QQwry.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_tagIPOFF" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQBAAAAAAABgAwAAIAA=</HashCode>
+      <FileName>SEU_QQwry.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_tagBE" Collapsed="true">
+    <Position X="11.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>SEU_QQwry.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_0141_2" Collapsed="true">
+    <Position X="23.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_MY_MARGINS" Collapsed="true">
+    <Position X="22.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ThemeUtil.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_tagWEBDLGINFO" Collapsed="true">
+    <Position X="7.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAACAAAAA=</HashCode>
+      <FileName>WebCamDlg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="z_stream_s" Collapsed="true">
+    <Position X="3.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAEAAAIAAAACQAAAIICAAEEAAQAAAEAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gz_header_s" Collapsed="true">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBACAAQAAEAAAABAABAAAAAAAEAAAIAAkQAAAAAQA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="internal_state" Collapsed="true">
+    <Position X="31.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_0193_1" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileManagerAuto.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_0196_1" Collapsed="true">
+    <Position X="28" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileManagerDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_01c4_1" Collapsed="true">
+    <Position X="19.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>TSPClientView.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="PDHCOUNTERSTRUCT" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\CpuUsage.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PPDHCOUNTERSTRUCT" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\CpuUsage.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CTC_NMHDR" Collapsed="true">
+    <Position X="3.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomTabCtrl.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="strList" Collapsed="true">
+    <Position X="43.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileManagerAuto.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="NOTIFYPROC" Collapsed="true">
+    <Position X="40.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IOCPServer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ContextList" Collapsed="true">
+    <Position X="31.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IOCPServer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPNET_DATA" Collapsed="true">
+    <Position X="17.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LicenseDef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="NET_DATA" Collapsed="true">
+    <Position X="14.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LicenseDef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LOGININFO" Collapsed="true">
+    <Position X="25.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DDOS_DATA" Collapsed="true">
+    <Position X="15.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPINFOEVIDENCEFILE" Collapsed="true">
+    <Position X="19.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="INFOEVIDENCEFILE" Collapsed="true">
+    <Position X="18.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="INFOEVIDENCEFILEANS" Collapsed="true">
+    <Position X="10.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPINFOEVIDENCEFILEANS" Collapsed="true">
+    <Position X="7.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPINFOEVIDENCEDATA" Collapsed="true">
+    <Position X="0.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="INFOEVIDENCEDATA" Collapsed="true">
+    <Position X="3.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SECRET_GET_TYPE" Collapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ALARMSCREEN_TYPE" Collapsed="true">
+    <Position X="23.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYDATA" Collapsed="true">
+    <Position X="11.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Public.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EndInfo" Collapsed="true">
+    <Position X="16.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SEU_QQwry.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PEndInfo" Collapsed="true">
+    <Position X="15.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SEU_QQwry.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IPOFF" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SEU_QQwry.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PIPOFF" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SEU_QQwry.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BE" Collapsed="true">
+    <Position X="13.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SEU_QQwry.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PBE" Collapsed="true">
+    <Position X="11.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SEU_QQwry.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FN_ANIMATE_WINDOW" Collapsed="true">
+    <Position X="33.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SplashScreenEx.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FILESIZE" Collapsed="true">
+    <Position X="23.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_MARGINS" Collapsed="true">
+    <Position X="22.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ThemeUtil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WEBDLGINFO" Collapsed="true">
+    <Position X="7.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WebCamDlg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PWEBDLGINFO" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WebCamDlg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Byte" Collapsed="true">
+    <Position X="18.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uInt" Collapsed="true">
+    <Position X="7.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uLong" Collapsed="true">
+    <Position X="21.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Bytef" Collapsed="true">
+    <Position X="18.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="charf" Collapsed="true">
+    <Position X="29.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="intf" Collapsed="true">
+    <Position X="38.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uIntf" Collapsed="true">
+    <Position X="7.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uLongf" Collapsed="true">
+    <Position X="21.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="voidpc" Collapsed="true">
+    <Position X="45.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="voidpf" Collapsed="true">
+    <Position X="28" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="voidp" Collapsed="true">
+    <Position X="3.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="alloc_func" Collapsed="true">
+    <Position X="28" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="free_func" Collapsed="true">
+    <Position X="35" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="z_stream" Collapsed="true">
+    <Position X="3.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="z_streamp" Collapsed="true">
+    <Position X="3.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gz_header" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gz_headerp" Collapsed="true">
+    <Position X="10.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="in_func" Collapsed="true">
+    <Position X="36.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="out_func" Collapsed="true">
+    <Position X="42" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gzFile" Collapsed="true">
+    <Position X="3.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="lvItem" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileManagerAuto.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="plvItem" Collapsed="true">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileManagerAuto.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="COLUMNSTRUCT" Collapsed="true">
+    <Position X="19.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TSPClientView.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="IOType" Collapsed="true">
+    <Position X="35" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAQABAAAAAAAA=</HashCode>
+      <FileName>include\IOCPServer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_0131_1" Collapsed="true">
+    <Position X="28" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACQAoACgAAAAAAAAIAAAAgAAAAAADAAIAICBAAA=</HashCode>
+      <FileName>LicenseDef.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_016e_1" Collapsed="true">
+    <Position X="31.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCINAVdIEFSFUERgScwAKAUylAlHegmJkiaUowIFCkg=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_016e_3" Collapsed="true">
+    <Position X="33.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAFAAAAgBAgAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_016e_5" Collapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAQAAEAAAAABAEAAAxAAAAAAACAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_016e_6" Collapsed="true">
+    <Position X="23.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAABAAAAAAAAAAAAIA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_016e_7" Collapsed="true">
+    <Position X="35" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>macros.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_0141_1" Collapsed="true">
+    <Position X="29.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAABAAIARACIAAgFAAAAAgAAAZAgADAAgkAAKAAFAA=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BGTYPE" Collapsed="true">
+    <Position X="43.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgEA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IMAGELAYOUT" Collapsed="true">
+    <Position X="31.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABACAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BORDERTYPE" Collapsed="true">
+    <Position X="45.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAgAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FILLTYPE" Collapsed="true">
+    <Position X="36.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEECCAAAAACAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SIZINGTYPE" Collapsed="true">
+    <Position X="42" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAEAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HALIGN" Collapsed="true">
+    <Position X="28" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CONTENTALIGNMENT" Collapsed="true">
+    <Position X="45.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAoAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VALIGN" Collapsed="true">
+    <Position X="36.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OFFSETTYPE" Collapsed="true">
+    <Position X="42" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASgABAQBEAAAAAAAQAAQAAAAgAEwAACAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ICONEFFECT" Collapsed="true">
+    <Position X="28" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQABAAAAAAAAAAAAAAAAAAAAAAAEEAAQAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TEXTSHADOWTYPE" Collapsed="true">
+    <Position X="29.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAEAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GLYPHTYPE" Collapsed="true">
+    <Position X="43.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IMAGESELECTTYPE" Collapsed="true">
+    <Position X="33.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACBAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TRUESIZESCALINGTYPE" Collapsed="true">
+    <Position X="31.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAIAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GLYPHFONTSIZINGTYPE" Collapsed="true">
+    <Position X="40.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgACIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PropValues" Collapsed="true">
+    <Position X="28" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tmschema.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WINDOWPARTS" Collapsed="true">
+    <Position X="42" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>okgBAAAAQCCRVQAAEQBAIQoAADAAAAaQAMAIEggAAAg=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FRAMESTATES" Collapsed="true">
+    <Position X="38.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAQ=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CAPTIONSTATES" Collapsed="true">
+    <Position X="29.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAggAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MAXCAPTIONSTATES" Collapsed="true">
+    <Position X="43.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAIAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MINCAPTIONSTATES" Collapsed="true">
+    <Position X="35" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HORZSCROLLSTATES" Collapsed="true">
+    <Position X="43.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgEAAAAAAgAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HORZTHUMBSTATES" Collapsed="true">
+    <Position X="45.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAEAAAAQACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VERTSCROLLSTATES" Collapsed="true">
+    <Position X="38.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VERTTHUMBSTATES" Collapsed="true">
+    <Position X="40.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAQAAAAAAAAAAABAAAAAAIAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SYSBUTTONSTATES" Collapsed="true">
+    <Position X="35" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAACAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MINBUTTONSTATES" Collapsed="true">
+    <Position X="33.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAIAAAAAEAAAAQAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MAXBUTTONSTATES" Collapsed="true">
+    <Position X="42" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAABAAABEAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RESTOREBUTTONSTATES" Collapsed="true">
+    <Position X="35" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAEAAAAAAAAAABAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HELPBUTTONSTATES" Collapsed="true">
+    <Position X="42" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLOSEBUTTONSTATES" Collapsed="true">
+    <Position X="38.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAIAAAAAAAAAAAAAAAgABAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BUTTONPARTS" Collapsed="true">
+    <Position X="28" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAIAAAAAAAIAAAAAAAAQAAAAAAAAAAAAAAABgA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PUSHBUTTONSTATES" Collapsed="true">
+    <Position X="29.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAYAAAABAAE=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RADIOBUTTONSTATES" Collapsed="true">
+    <Position X="31.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAIAAAAQAAAAAAAAAQAAAAAAAEACCAAAABAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CHECKBOXSTATES" Collapsed="true">
+    <Position X="31.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhQAAAAIIABEAEAAAACEAIQAAAAAAAACDAMAgAAAQAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GROUPBOXSTATES" Collapsed="true">
+    <Position X="45.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAACAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="REBARPARTS" Collapsed="true">
+    <Position X="33.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAgAAAEAAAAAAAAAAAAAAAAAgAAAACAgAAIAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CHEVRONSTATES" Collapsed="true">
+    <Position X="33.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOOLBARPARTS" Collapsed="true">
+    <Position X="45.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAQEAAAg=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOOLBARSTATES" Collapsed="true">
+    <Position X="28" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAAAAEAAAAAABAAAAAAAAAQCAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Tmschema.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="STATUSPARTS" Collapsed="true">
+    <Position X="33.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAABAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MENUPARTS" Collapsed="true">
+    <Position X="29.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAQRAAAAAAEQAMAAAAACBQAgAABAAAiEAgYAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MENUSTATES" Collapsed="true">
+    <Position X="31.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Tmschema.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LISTVIEWPARTS" Collapsed="true">
+    <Position X="38.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAQAEIAAAAAACABAAAAAwABAAAAAAgAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LISTITEMSTATES" Collapsed="true">
+    <Position X="36.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAIAAAIAQAAAAAEAACAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HEADERPARTS" Collapsed="true">
+    <Position X="36.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAABAIAABAAAAAAgAACAAAAEAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HEADERITEMSTATES" Collapsed="true">
+    <Position X="35" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAIAFAAAAAADAIAKBAEIAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HEADERITEMLEFTSTATES" Collapsed="true">
+    <Position X="31.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HEADERITEMRIGHTSTATES" Collapsed="true">
+    <Position X="33.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HEADERSORTARROWSTATES" Collapsed="true">
+    <Position X="40.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PROGRESSPARTS" Collapsed="true">
+    <Position X="45.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAABAAAEAACAAAAACgCAAAIAABAgAAgA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TABPARTS" Collapsed="true">
+    <Position X="43.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAEAAIABQSAAAAAAAAAAAAAAAACCAAAAAAk=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TABITEMSTATES" Collapsed="true">
+    <Position X="42" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAABAAAAAAAAAAAAKACAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TABITEMLEFTEDGESTATES" Collapsed="true">
+    <Position X="38.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQQAAAAAABAAAAAAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TABITEMRIGHTEDGESTATES" Collapsed="true">
+    <Position X="40.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQQAAAAAABAAAAAAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TABITEMBOTHEDGESSTATES" Collapsed="true">
+    <Position X="36.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQQIAAAAABAAAAAAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>Tmschema.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOPTABITEMSTATES" Collapsed="true">
+    <Position X="36.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAABAAAAEAEAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOPTABITEMLEFTEDGESTATES" Collapsed="true">
+    <Position X="33.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAiACAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOPTABITEMRIGHTEDGESTATES" Collapsed="true">
+    <Position X="35" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAIAAAAAAAAAAAAAAAAAABACAAgAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOPTABITEMBOTHEDGESSTATES" Collapsed="true">
+    <Position X="31.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgACAAAAAAAAAABAAAAAAAAAAgAIEAAAAAAAAAA=</HashCode>
+      <FileName>Tmschema.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TRACKBARPARTS" Collapsed="true">
+    <Position X="38.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAAAAAAAQAAAgQAAAAAAACIAAAgEAAAAAAAACAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TRACKBARSTATES" Collapsed="true">
+    <Position X="40.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAA=</HashCode>
+      <FileName>Tmschema.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TRACKSTATES" Collapsed="true">
+    <Position X="42" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TRACKVERTSTATES" Collapsed="true">
+    <Position X="43.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="THUMBSTATES" Collapsed="true">
+    <Position X="36.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIAAAAAAAAAAAAAAAAAAAAgACAAAAAAAAABAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="THUMBBOTTOMSTATES" Collapsed="true">
+    <Position X="31.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEAAAAAQAAAAAAAIAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="THUMBTOPSTATES" Collapsed="true">
+    <Position X="38.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEAAAAAQAAAAAAAIAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="THUMBVERTSTATES" Collapsed="true">
+    <Position X="40.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEAAAAAQAAAAAAAIAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="THUMBLEFTSTATES" Collapsed="true">
+    <Position X="33.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAJA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="THUMBRIGHTSTATES" Collapsed="true">
+    <Position X="35" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAgAQAAgAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TICSSTATES" Collapsed="true">
+    <Position X="42" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TICSVERTSTATES" Collapsed="true">
+    <Position X="43.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOOLTIPPARTS" Collapsed="true">
+    <Position X="29.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAQAAAIAAAAAAAAAAQQAAAAAAAAEA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLOSESTATES" Collapsed="true">
+    <Position X="40.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="STANDARDSTATES" Collapsed="true">
+    <Position X="29.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BALLOONSTATES" Collapsed="true">
+    <Position X="42" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TREEVIEWPARTS" Collapsed="true">
+    <Position X="29.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAACAAAAAAAgAQAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TREEITEMSTATES" Collapsed="true">
+    <Position X="28" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAACAAAAAAAgAAAAAgIAAAABAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GLYPHSTATES" Collapsed="true">
+    <Position X="42" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SPINPARTS" Collapsed="true">
+    <Position X="28" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAQAAQAAAAAAABAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UPSTATES" Collapsed="true">
+    <Position X="35" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAACAAAAAAAAAAACCAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DOWNSTATES" Collapsed="true">
+    <Position X="29.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAgAAAAQAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UPHORZSTATES" Collapsed="true">
+    <Position X="33.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAEAAAAAAAAAgAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DOWNHORZSTATES" Collapsed="true">
+    <Position X="28" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAABAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PAGEPARTS" Collapsed="true">
+    <Position X="43.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAABAAQAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SCROLLBARPARTS" Collapsed="true">
+    <Position X="36.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAABAAAAAAAAAAAAAAAAAEEAAAACIICCAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ARROWBTNSTATES" Collapsed="true">
+    <Position X="40.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUIAEBAJACAEBAAGAAACAAAgAAAIAAAAGAEIAABAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SCROLLBARSTATES" Collapsed="true">
+    <Position X="38.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABACAABQAAAA=</HashCode>
+      <FileName>Tmschema.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SIZEBOXSTATES" Collapsed="true">
+    <Position X="40.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQgIAAAAAAAAAAAQAQAAEAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EDITPARTS" Collapsed="true">
+    <Position X="31.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAIAAABAAAAAAAAAAAAAQAAAAAAAEAAAAAAwAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EDITTEXTSTATES" Collapsed="true">
+    <Position X="33.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACBAAAAAAAAACAIgAAAAAAAAAAAAAAACAAAABIAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="COMBOBOXPARTS" Collapsed="true">
+    <Position X="42" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAABAAAAAAAAAAAAoAEIAAABEA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="COMBOBOXSTATES" Collapsed="true">
+    <Position X="43.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hBAAAAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tmschema.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLOCKPARTS" Collapsed="true">
+    <Position X="35" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLOCKSTATES" Collapsed="true">
+    <Position X="36.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TRAYNOTIFYPARTS" Collapsed="true">
+    <Position X="45.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TASKBARPARTS" Collapsed="true">
+    <Position X="28" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAAEABAAAAIAAAAACgAAAAAABAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TASKBANDPARTS" Collapsed="true">
+    <Position X="45.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAABEAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="STARTPANELPARTS" Collapsed="true">
+    <Position X="31.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgFAUAAIAAICAECAAACGAAAACAASAAAAAAAAIIAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MOREPROGRAMSARROWSTATES" Collapsed="true">
+    <Position X="36.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAACBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LOGOFFBUTTONSSTATES" Collapsed="true">
+    <Position X="40.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAGAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EXPLORERBARPARTS" Collapsed="true">
+    <Position X="35" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAgEQAgAAAAAAQAAAACgAAJAACAAABAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HEADERCLOSESTATES" Collapsed="true">
+    <Position X="29.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HEADERPINSTATES" Collapsed="true">
+    <Position X="38.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAACCACAAAAQAAAEAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IEBARMENUSTATES" Collapsed="true">
+    <Position X="29.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAIAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NORMALGROUPCOLLAPSESTATES" Collapsed="true">
+    <Position X="38.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NORMALGROUPEXPANDSTATES" Collapsed="true">
+    <Position X="40.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SPECIALGROUPCOLLAPSESTATES" Collapsed="true">
+    <Position X="43.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SPECIALGROUPEXPANDSTATES" Collapsed="true">
+    <Position X="45.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vsstyle.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MENUBANDPARTS" Collapsed="true">
+    <Position X="45.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MENUBANDSTATES" Collapsed="true">
+    <Position X="28" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAABABAAAQAACAAAAAAIAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\vssym32.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_01b3_1" Collapsed="true">
+    <Position X="36.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIEAACBAAAQCBAIAiAAAEACAABAAEQQAAAASI=</HashCode>
+      <FileName>ScreenSpyDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_01c6_1" Collapsed="true">
+    <Position X="38.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAJAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>WebCamDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>
