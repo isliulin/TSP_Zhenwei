@@ -1,0 +1,6 @@
+1.下载Inno setup5.4.2安装文件isetup-5.4.2.zip
+2.下载中文语言包chineseSimp.isl
+3.解压缩并安装isetup-5.4.2.exe
+4.把语言包chineseSimp.isl拷贝到安装目录下;
+5.双击tspsetup.iss自动用isetup打开,点击菜单"build"下"compile"子菜单,编译
+6.在当前目录下生成TSPSetup.exe打包程序
